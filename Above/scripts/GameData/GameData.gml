@@ -31,8 +31,8 @@ global.actionLibrary =
 		targetRequired : true,
 		targetEnemyByDefault : true,
 		targetAll : MODE.NEVER,
-		userAnimation : "attack",
-		effectSprite : Attack_effect,
+		userAnimation : "cast",
+		effectSprite : Dark_Effect,
 		effectOnTarget : MODE.ALWAYS,
 		func : function(_user, _targets)
 		{
@@ -60,7 +60,7 @@ global.Character =
 		mp: 20,
 		mpMax: 20,
 		Str: 5,
-		sprites : {idle: MC_Battle, attack: MC_Battle_Attack, down: MC_Battle_Down},
+		sprites : {idle: MC_Battle, attack: MC_Battle_Attack, down: MC_Battle_Down, cast: MC_Battle_Cast},
 		actions : [global.actionLibrary.attack, global.actionLibrary.dark]
 	}
 	

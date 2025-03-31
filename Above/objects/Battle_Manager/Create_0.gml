@@ -101,7 +101,7 @@ function BattleStateSelectAction()
 				}
 			}
 			
-			Menu(x+300, y+300, _menuOptions, , 174, 160);
+			Menu(x+200, y+600, _menuOptions, , 174, 160);
 	
 		}
 		else

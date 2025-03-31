@@ -26,7 +26,7 @@ global.actionLibrary =
 	{
 		name: "Dark",
 		description: "{0} casts dark!",
-		submenu : "Magic",
+		subMenu : "Magic",
 		mpCost : 4,
 		targetRequired : true,
 		targetEnemyByDefault : true,

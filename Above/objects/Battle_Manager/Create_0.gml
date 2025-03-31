@@ -48,31 +48,67 @@ RefreshOrder();
 
 function BattleStateSelectAction()
 {
-	var _unit = unitTurnOrder[turn];
-	
-	if (!instance_exists(_unit)) || (_unit.hp <= 0)
+	if (!instance_exists(battleMenu))
 	{
-		battleState = BattleStateVictoryCheck;
-		exit;
-	}
 	
-	//BeginAction(_unit.id, global.actionLibrary.attack, _unit.id);
+		var _unit = unitTurnOrder[turn];
 	
-	if (_unit.object_index == Battle_player)
-	{
-		var _action = global.actionLibrary.attack;
-			var _possibleTargets = array_filter(Battle_Manager.enemyUnits, function(_unit, _index)
+		if (!instance_exists(_unit)) || (_unit.hp <= 0)
+		{
+			battleState = BattleStateVictoryCheck;
+			exit;
+		}
+	
+		//BeginAction(_unit.id, global.actionLibrary.attack, _unit.id);
+	
+		if (_unit.object_index == Battle_player)
+		{
+			var _menuOptions = [];
+			var _subMenus = {};
+			
+			var _actionList = _unit.actions;
+			
+			for (var i = 0; i < array_length(_actionList); i++)
 			{
-				return (_unit.hp > 0);
-			});
-			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)];
-			BeginAction(_unit.id, _action, _target);
+				var _action = _actionList[i];
+				var _available = true;
+				var _nameAndCount = _action.name;
+				if (_action.subMenu == -1)
+				{
+					array_push(_menuOptions, [_nameAndCount, MenuSelectAction, [_unit, _action], _available]);
+				}
+				else
+				{
+					if (is_undefined(_subMenus[$ _action.subMenu]))
+					{
+						variable_struct_set(_subMenus, _action.subMenu, [[_nameAndCount, MenuSelectAction, [_unit, _action], _available]]);
+					}
+					else
+					{
+						array_push(_subMenus[$ _action.subMenu], [_nameAndCount, MenuSelectAction, [_unit, _action], _available]);
+					}
+				}
+				
+				var _subMenusArray = variable_struct_get_names(_subMenus);
+				for (var i = 0; i < array_length(_subMenusArray); i++)
+				{
+					//sort if needed 
+					//here
+					
+					array_push(_subMenus[$ _subMenusArray[i]], ["Back", MenuGoBack, -1, true]);
+					
+					array_push(_menuOptions, [_subMenusArray[i], SubMenu, [_subMenus[$ _subMenusArray[i]]], true]);
+				}
+			}
+			
+			Menu(x+300, y+300, _menuOptions, , 174, 160);
 	
-	}
-	else
-	{
-		var _enemyAction = _unit.AIscript();
-		if (_enemyAction != -1) BeginAction(_unit.id, _enemyAction[0], _enemyAction[1]);
+		}
+		else
+		{
+			var _enemyAction = _unit.AIscript();
+			if (_enemyAction != -1) BeginAction(_unit.id, _enemyAction[0], _enemyAction[1]);
+		}
 	}
 }
 

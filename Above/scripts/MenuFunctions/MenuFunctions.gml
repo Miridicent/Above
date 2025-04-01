@@ -63,7 +63,41 @@ function MenuGoBack()
 function MenuSelectAction(_user, _action)
 {
 	with (battleMenu) acive = false;
-	with (Battle_Manager) BeginAction(_user, _action, _user);
-	with (battleMenu) instance_destroy();
-	
+	with (Battle_Manager) 
+	{
+		if (_action.targetRequired)
+		{
+			with (cursor)
+			{
+				active = true;
+				activeAction = _action;
+				targetAll = _action.targetAll;
+				if (targetAll == MODE.VARIES) targetAll = true;
+				activeUser = _user;
+				
+				//Which side is targeted by default?
+				if (_action.targetEnemyByDefault)
+				{
+					targetIndex = 0;
+					targetSide = Battle_Manager.enemyUnits;
+					activeTarget = Battle_Manager.enemyUnits[targetIndex];
+				}
+				else
+				{
+					targetSide = Battle_Manager.PlayerU;
+					activeTarget = activeUser;
+					var _findself = function(_element)
+					{
+						return (_element == activeTarget)
+					}
+					targetIndex = array_find_index(Battle_Manager.PlayerU, _findself);
+				}
+			}
+		}
+		else
+		{
+			BeginAction(_user, _action, -1);
+			with (battleMenu) instance_destroy();
+		}
+	}
 }

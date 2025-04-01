@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_deactivate_all(true);
+instance_deactivate_object(Player)
 
 units = [];
 turn = 0;
@@ -15,6 +15,18 @@ battleWaitTimeRemaining = 0;
 currentUser = noone;
 currentAction = -1;
 currentTargets = noone;
+
+cursor = 
+{
+	activeUser: noone,
+	activeTarget: noone,
+	activeAction : -1,
+	targetSide : -1,
+	targetIndex : 0,
+	targetAll : false,
+	confirmDelay : 0,
+	active : false
+};
 
 //Draws Enemies
 for (var i = 0; i < array_length(enemies); i++)
@@ -46,6 +58,8 @@ RefreshOrder = function()
 
 RefreshOrder();
 
+
+// Allows the player to select their action from the actions menu
 function BattleStateSelectAction()
 {
 	if (!instance_exists(battleMenu))
@@ -89,16 +103,18 @@ function BattleStateSelectAction()
 					}
 				}
 				
-				var _subMenusArray = variable_struct_get_names(_subMenus);
-				for (var i = 0; i < array_length(_subMenusArray); i++)
-				{
-					//sort if needed 
-					//here
+			
+			}
+			
+			var _subMenusArray = variable_struct_get_names(_subMenus);
+			for (var i = 0; i < array_length(_subMenusArray); i++)
+			{
+				//sort if needed 
+				//here
 					
-					array_push(_subMenus[$ _subMenusArray[i]], ["Back", MenuGoBack, -1, true]);
+				array_push(_subMenus[$ _subMenusArray[i]], ["Back", MenuGoBack, -1, true]);
 					
-					array_push(_menuOptions, [_subMenusArray[i], SubMenu, [_subMenus[$ _subMenusArray[i]]], true]);
-				}
+				array_push(_menuOptions, [_subMenusArray[i], SubMenu, [_subMenus[$ _subMenusArray[i]]], true]);
 			}
 			
 			Menu(x+200, y+600, _menuOptions, , 174, 160);
@@ -183,7 +199,18 @@ function BattleStatePerformAction()
 
 function BattleStateVictoryCheck()
 {
+	var _unit = unitTurnOrder[turn];
+	
+	if (_unit.hp > 0)
+	{
 		battleState = BattleStateTurnProgression;
+	}
+	
+	else
+	{
+		instance_activate_object(Player);
+		instance_destroy();
+	}
 }
 
 function BattleStateTurnProgression()

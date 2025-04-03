@@ -38,6 +38,7 @@ global.actionLibrary =
 		{
 			var _damage = irandom_range(10, 15);
 			BattleChangeHP(_targets[0], - _damage);
+			BattleChangeMP(_user, - mpCost);
 		}
 	}
 }

@@ -70,8 +70,8 @@ for (var i = 0; i < array_length(PlayerU); i++)
 	
 	draw_set_color(c_white);
 	if(_char.mp < (_char.mpMax * 0.5)) draw_set_color(c_orange);
-	if (_char.hp <= 0) draw_set_color(c_red);
-	draw_text(x+COLUM_MP+50, y+670+(i*12),string(_char.hp) + "/" + string(_char.mpMax));
+	if (_char.mp <= 0) draw_set_color(c_red);
+	draw_text(x+COLUM_MP+50, y+670+(i*12),string(_char.mp) + "/" + string(_char.mpMax));
 	
 	draw_set_color(c_white)
 }

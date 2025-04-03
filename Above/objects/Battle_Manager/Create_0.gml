@@ -31,7 +31,7 @@ cursor =
 //Draws Enemies
 for (var i = 0; i < array_length(enemies); i++)
 {
-	enemyUnits[i] = instance_create_depth(x+850+(i*10), y +340+(i*20), depth-10, Battle_enemy, enemies[i]);
+	enemyUnits[i] = instance_create_depth(x+850+(i*10), y +240+(i*160), depth-10, Battle_enemy, enemies[i]);
 	array_push(units, enemyUnits[i]);
 }
 
@@ -201,7 +201,7 @@ function BattleStateVictoryCheck()
 {
 	var _unit = unitTurnOrder[turn];
 	
-	if (_unit.hp > 0)
+	if (_unit.hp > 0) //|| (!instance_exists(enemyUnits[0]))
 	{
 		battleState = BattleStateTurnProgression;
 	}

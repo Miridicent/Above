@@ -36,3 +36,11 @@ function BattleChangeHP(_target, _amount, _AliveDeadoreither = 0)
 	);
 	if (!_failed) _target.hp = clamp(_target.hp + _amount, 0, _target.hpMax);
 }
+
+function BattleChangeMP(_user, _amount)
+{
+	var _failed = false;
+	if (_user.mp <= 0) _failed = true;
+	
+	if (!_failed) _user.mp = clamp(_user.mp + _amount, 0, _user.mpMax);
+}

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"MC_Side2M",
   "bboxMode":0,
-  "bbox_bottom":188,
+  "bbox_bottom":154,
   "bbox_left":0,
-  "bbox_right":89,
+  "bbox_right":73,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":189,
+  "height":155,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"dfa0c242-056d-4d44-a228-fa9eec62cdc0","blendMode":0,"displayName":"default","isLocked":false,"name":"dfa0c242-056d-4d44-a228-fa9eec62cdc0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":90,
+  "width":74,
 }

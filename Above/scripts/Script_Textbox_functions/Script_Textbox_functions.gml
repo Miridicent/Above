@@ -3,12 +3,51 @@ function scr_set_defaults_for_text()
 	line_break_pos[0, page_number] = 999;
 	line_break_num[page_number] = 0;
 	line_break_offset[page_number] = 0;
+	
+	textb_spr[page_number] = spr_textbox;
+	speaker_sprite[page_number] = noone;
+	speaker_side[page_number] = 1;
 }
 
 // @param text
 	function scr_text(_text){
+		
 	scr_set_defaults_for_text()
+	
 	text[page_number] = _text;
+	
+	if argument_count > 1
+		{
+			switch(argument[1])
+			{
+				case "Mc":
+				speaker_sprite[page_number] = Mc_portrait;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Mc-conf":
+				speaker_sprite[page_number] = Mc_portrait_confused;
+				textb_spr[page_number] = spr_Mc_box;
+				//speaker__side[page_number] = -1;
+				break;
+				
+				case "Mc-anno":
+				speaker_sprite[page_number] =  Mc_portrait_annoyed;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Mc-hapy":
+				speaker_sprite[page_number] =  Mc_portrait_happy;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+			}
+		}
+	
+	if argument_count > 2
+		{
+			speaker_side[page_number] = argument[2];
+		}
+	
 
 	page_number++
 

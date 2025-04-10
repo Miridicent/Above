@@ -20,3 +20,6 @@ face = DOWNS;
 tilecollide = layer_tilemap_get_id("Wall");
 
 mask_index = MC_Front;
+
+Level = 1;
+

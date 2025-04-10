@@ -25,6 +25,7 @@ if place_meeting(x, y + yspd, tilecollide)
 x += xspd;
 y += yspd;
 
+
 //Collisions 
 
 
@@ -47,3 +48,27 @@ if (face = DOWN && xspd == 0 && yspd == 0){face = DOWNS};
 
 
 sprite_index = sprite[face];
+
+//Stop Player when text is on screen
+if instance_exists(obj_textbox)
+{
+	move_spd = 0;
+}
+else
+{
+	move_spd = 5;
+	
+	//Sprint
+if keyboard_check(vk_shift)
+	{
+		move_spd = 10;
+		sprite_set_speed(sprite_index, 4, spritespeed_framespersecond);
+	}
+	
+else
+	{
+		move_spd = 5;
+		sprite_set_speed(sprite_index, 2, spritespeed_framespersecond);
+	}
+}
+

@@ -6,7 +6,7 @@ textbox_height = 256;
 border = 16;
 line_sep = 29;
 line_width = textbox_width - border*2;
-textb_spr = spr_textbox;
+textb_spr[0] = spr_textbox;
 textb_img = 0;
 textb_img_spd = 6/60;
 
@@ -35,3 +35,5 @@ setup = false;
 //effects
 scr_set_defaults_for_text();
 last_free_space = 0;
+text_pause_timer = 0;
+text_pause_time = 16;

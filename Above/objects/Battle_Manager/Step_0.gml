@@ -60,7 +60,7 @@ if (cursor.active)
 				targetAll = false;
 			}
 		}
-		
+		// confirm target
 		if (_keyConfirm)
 		{
 			with (Battle_Manager) BeginAction(cursor.activeUser, cursor.activeAction, cursor.activeTarget);

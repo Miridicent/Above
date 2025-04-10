@@ -2,6 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 //Action Library
+
+LevelMulti = 0;
+
+
 global.actionLibrary = 
 {
 	attack :
@@ -40,6 +44,26 @@ global.actionLibrary =
 			BattleChangeHP(_targets[0], - _damage);
 			BattleChangeMP(_user, - mpCost);
 		}
+	},
+	
+	darker :
+	{
+		name: "Darker",
+		description: "{0} casts dark!",
+		subMenu : "Magic",
+		mpCost : 8,
+		targetRequired : true,
+		targetEnemyByDefault : true,
+		targetAll : MODE.NEVER,
+		userAnimation : "cast",
+		effectSprite : Dark_Effect,
+		effectOnTarget : MODE.ALWAYS,
+		func : function(_user, _targets)
+		{
+			var _damage = irandom_range(20, 30);
+			BattleChangeHP(_targets[0], - _damage);
+			BattleChangeMP(_user, - mpCost);
+		}
 	}
 }
 
@@ -57,12 +81,12 @@ global.Character =
 	{
 		name: "Vee",
 		hp: 20,
-		hpMax: 20,
+		hpMax: 20 + LevelMulti,
 		mp: 20,
-		mpMax: 20,
-		Str: 5,
+		mpMax: 20 + LevelMulti,
+		Str: 5 + LevelMulti,
 		sprites : {idle: MC_Battle, attack: MC_Battle_Attack, down: MC_Battle_Down, cast: MC_Battle_Cast},
-		actions : [global.actionLibrary.attack, global.actionLibrary.dark]
+		actions : [global.actionLibrary.attack, global.actionLibrary.dark, global.actionLibrary.darker]
 	}
 	
 ]

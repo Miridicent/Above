@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 
  // Change sprites if in water.
 sprite[RIGHT] = Mc_Side2_swim;

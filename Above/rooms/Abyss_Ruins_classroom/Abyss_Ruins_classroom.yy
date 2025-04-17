@@ -5,10 +5,26 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-  "instanceCreationOrder":[],
+  "instanceCreationOrder":[
+    {"name":"inst_647CCF93","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_28B52926","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_31B71D16","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_14B8F367","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_367E1F41","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_43A80078","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_41088F36","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+  ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_647CCF93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_647CCF93","objectId":{"name":"Blackboard","path":"objects/Blackboard/Blackboard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.52685016,"scaleY":0.52685016,"x":544.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_28B52926","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28B52926","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_31B71D16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31B71D16","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_14B8F367","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14B8F367","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_367E1F41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_367E1F41","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_43A80078","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43A80078","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_41088F36","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41088F36","objectId":{"name":"Desk","path":"objects/Desk/Desk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":608.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":17,"TileCompressedData":[
           1,2,-15,12,2,10,2,-15,11,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,
           9,2,10,2,-15,9,1,10,-4,7,-9,9,-4,7,-4,12,-9,9,-4,12,-4,11,-9,9,-4,11,-3,-2147483648,1,2,-9,9,1,10,-3,

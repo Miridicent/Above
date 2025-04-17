@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 
 instance_deactivate_object(Player)
 
@@ -199,9 +198,24 @@ function BattleStatePerformAction()
 
 function BattleStateVictoryCheck()
 {
-	var _unit = unitTurnOrder[turn];
+	//var _unit = unitTurnOrder[turn];
+	var enemiesAlive = false;
 	
-	if (_unit.hp > 0) //|| (!instance_exists(enemyUnits[0]))
+	//if (_unit.hp > 0) //|| (!instance_exists(enemyUnits[0]))
+	//{
+	//	battleState = BattleStateTurnProgression;
+	//}
+	
+	for (var i = 0; i < array_length(enemyUnits); i++)
+	{
+		if (instance_exists(enemyUnits[i]) && enemyUnits[i].hp > 0)
+		{
+			enemiesAlive = true;
+			break;
+		}
+	}
+	
+	if (enemiesAlive)
 	{
 		battleState = BattleStateTurnProgression;
 	}

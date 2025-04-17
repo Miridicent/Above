@@ -3,7 +3,7 @@
 
 //Action Library
 
-LevelMulti = 0;
+//LevelMulti = 0;
 
 
 global.actionLibrary = 
@@ -63,9 +63,55 @@ global.actionLibrary =
 			var _damage = irandom_range(20, 30);
 			BattleChangeHP(_targets[0], - _damage);
 			BattleChangeMP(_user, - mpCost);
+			
 		}
+	},
+	
+	light :
+	{
+		name: "Light",
+		description: "{0} casts light!",
+		subMenu : "Magic",
+		mpCost : 3,
+		targetRequired : true,
+		targetEnemyByDefault : false,
+		targetAll : MODE.NEVER,
+		userAnimation : "cast",
+		effectSprite : noone,
+		effectOnTarget : MODE.ALWAYS,
+		func : function (_user, _targets)
+		{
+			var _heal = irandom_range(10, 15);
+			BattleChangeHP(_targets[0], _heal);
+			BattleChangeMP(_user, - mpCost);
+			if (_user.hp > _user.hpMax)
+			{
+				_user.hp = _user.hpMax;
+			}
+		}
+		
+	},
+	
+	escape :
+	{
+		name: "Escape",
+		description: "",
+		subMenu : -1,
+		targetRequired : false,
+		targetEnemyByDefault : false,
+		targetAll : MODE.NEVER,
+		userAnimation : "attack",
+		effectSprite : Attack_effect,
+		effectOnTarget : MODE.ALWAYS,
+		func : function ()
+		{
+			instance_destroy(Battle_Manager);
+			instance_activate_object(Player);
+		}
+		
 	}
 }
+
 
 enum MODE
 {
@@ -80,13 +126,16 @@ global.Character =
 [
 	{
 		name: "Vee",
+		Level: 1,
+		xp: 0,
+		xptonext: 10,
 		hp: 20,
-		hpMax: 20 + LevelMulti,
+		hpMax: 20 /*+ LevelMulti*/,
 		mp: 20,
-		mpMax: 20 + LevelMulti,
-		Str: 5 + LevelMulti,
+		mpMax: 20 /*+ LevelMulti*/,
+		Str: 5 /*+ LevelMulti*/,
 		sprites : {idle: MC_Battle, attack: MC_Battle_Attack, down: MC_Battle_Down, cast: MC_Battle_Cast},
-		actions : [global.actionLibrary.attack, global.actionLibrary.dark, global.actionLibrary.darker]
+		actions : [global.actionLibrary.attack, global.actionLibrary.dark, global.actionLibrary.light, global.actionLibrary.escape]
 	}
 	
 ]

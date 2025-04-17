@@ -44,3 +44,35 @@ function BattleChangeMP(_user, _amount)
 	
 	if (!_failed) _user.mp = clamp(_user.mp + _amount, 0, _user.mpMax);
 }
+
+function LevelUp (_charIndex)
+{
+	var _char = global.Character[_charIndex];
+	
+	_char.Level += 1;
+	_char.xp = 0;
+	_char.xptonext = floor(_char.xptonext * 1.25); // Increasces the xp requirement
+	
+	//Increase stats
+	
+	_char.hpMax += 5;
+	_char.mpMax += 3;
+	_char.Str += 2;
+	
+	//Refill Hp and Mp
+	_char.hp = _char.hpMax;
+	_char.mp = _char.mpMax;
+	
+	show_debug_message(_char.name + "Leveled up to " + string(_char.Level) + "!")
+}
+
+function GainXp(_charIndex, _amount)
+{
+	var _char = global.Character[_charIndex];
+	_char.xp += _amount;
+	
+	if (_char.xp >= _char.xptonext)
+	{
+		LevelUp(_charIndex);
+	}
+}

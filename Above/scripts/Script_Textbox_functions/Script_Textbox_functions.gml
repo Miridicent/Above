@@ -1,3 +1,5 @@
+//script textbox functions 
+
 function scr_set_defaults_for_text()
 {
 	line_break_pos[0, page_number] = 999;
@@ -69,4 +71,12 @@ function create_textbox(_text_id)
 		{
 			scr_game_text(_text_id);
 		}
+}
+
+function destory_textbox()
+{
+	if (object_exists(obj_textbox))
+	{
+		instance_deactivate_object(obj_textbox);
+	}
 }

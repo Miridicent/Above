@@ -4,6 +4,8 @@
 xspd = 0;
 yspd = 0;
 
+depth = -9998;
+
 move_spd = 5;
 	
 sprite[RIGHT] = MC_SideM;
@@ -23,7 +25,7 @@ mask_index = MC_Front;
 
 Level = 1;
 
-//Knowledge
+
 
 
 

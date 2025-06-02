@@ -7,11 +7,17 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_6912309A","path":"rooms/Abyss_Ruins_2/Abyss_Ruins_2.yy",},
+    {"name":"inst_399809BE","path":"rooms/Abyss_Ruins_2/Abyss_Ruins_2.yy",},
+    {"name":"inst_4B055F9","path":"rooms/Abyss_Ruins_2/Abyss_Ruins_2.yy",},
+    {"name":"inst_73782FAB","path":"rooms/Abyss_Ruins_2/Abyss_Ruins_2.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6912309A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6912309A","objectId":{"name":"Pathway_obj","path":"objects/Pathway_obj/Pathway_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.37002915,"scaleY":0.37002918,"x":1504.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_399809BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_399809BE","objectId":{"name":"CatBoy","path":"objects/CatBoy/CatBoy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4B055F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B055F9","objectId":{"name":"DogGirl","path":"objects/DogGirl/DogGirl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.074074,"scaleY":1.0,"x":608.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_73782FAB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73782FAB","objectId":{"name":"PurpleGirl","path":"objects/PurpleGirl/PurpleGirl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.76282036,"scaleY":0.76282054,"x":2048.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":34,"TileCompressedData":[
           -33,12,1,-2147483648,-33,12,1,-2147483648,-33,11,1,-2147483648,-33,9,1,0,-33,9,1,0,-33,9,1,0,-33,9,1,

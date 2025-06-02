@@ -14,8 +14,6 @@
     {"name":"inst_5A92FF5A","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_4378CB02","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_39B81EB4","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
-    {"name":"inst_56A54DD8","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
-    {"name":"inst_2F84139F","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_229AE30","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_5356FF10","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_63D4329A","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
@@ -23,7 +21,6 @@
     {"name":"inst_6DBFE5D2","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_26FA4C70","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
     {"name":"inst_4956D4A4","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
-    {"name":"inst_6A6C2468","path":"rooms/Abyss_Mouth/Abyss_Mouth.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,9 +33,6 @@
         {"$GMRInstance":"v1","%Name":"inst_5A92FF5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A92FF5A","objectId":{"name":"Sea_effect","path":"objects/Sea_effect/Sea_effect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.57421875,"scaleY":0.57421875,"x":1731.0,"y":1025.5,},
         {"$GMRInstance":"v1","%Name":"inst_4378CB02","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4378CB02","objectId":{"name":"Sign_obj","path":"objects/Sign_obj/Sign_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.32500002,"scaleY":0.32500002,"x":608.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_39B81EB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39B81EB4","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":2624.0,},
-        {"$GMRInstance":"v1","%Name":"inst_56A54DD8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56A54DD8","objectId":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":256.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2F84139F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F84139F","objectId":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":256.0,},
-        {"$GMRInstance":"v1","%Name":"inst_6A6C2468","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A6C2468","objectId":{"name":"Wrldinfo","path":"objects/Wrldinfo/Wrldinfo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
       ],"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Triggers","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_229AE30","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_229AE30","objectId":{"name":"Water_trigger_obj","path":"objects/Water_trigger_obj/Water_trigger_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6666666,"scaleY":4.333333,"x":512.0,"y":1824.0,},

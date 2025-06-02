@@ -1,3 +1,5 @@
+//game text
+
 //@param text_id
 function scr_game_text(_text_id){
 
@@ -22,6 +24,10 @@ function scr_game_text(_text_id){
 			scr_text("Oh. Hello I'm npc 2");
 			scr_text("Have you met npc 1? Excitable one arn't they?");
 			break;
+		
+		case "cuptest":
+			scr_text("It's a cup, (add to inventory)");
+			break
 		//--------------------------------------------------------------------------------
 			
 			
@@ -51,10 +57,23 @@ function scr_game_text(_text_id){
 				break;
 				}
 			
-		 case "crack1":
+		case "crack1":
 			scr_text("A crack has formed across the stone of this wall.");
 			scr_text("It could indicate the age of this structure... or that someone really big bumped into it.");
 			break;
+		
+		case "cup1":
+			scr_text("It's a cup left by one of the students.");
+			scr_text("Maybe it can be used for something...");
+			scr_text("(Cup added to inventory)");
+			break;
+		
+		case "Class1":
+			scr_text("Hmmm? What's going on in here?");
+			scr_text("Some kind of classroom?");
+			//Cut_trigger.textdone = true;
+			break;
+			
 	}
 
 }

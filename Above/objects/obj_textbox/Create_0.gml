@@ -1,5 +1,6 @@
 depth = -9999;
 
+
 //textbox paramaters
 textbox_width = 576;
 textbox_height = 226;
@@ -15,6 +16,7 @@ page = 0;
 page_number = 0;
 text[0] = "";
 text_length[0] = string_length(text[0]);
+
 
 
 char[0, 0] = "";

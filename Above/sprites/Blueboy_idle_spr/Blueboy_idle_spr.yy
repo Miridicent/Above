@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Blueboy_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":323,
+  "bbox_bottom":179,
   "bbox_left":0,
-  "bbox_right":107,
+  "bbox_right":59,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":324,
+  "height":180,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"42b8edcc-4adb-4979-89a6-f937b42c0cf4","blendMode":0,"displayName":"default","isLocked":false,"name":"42b8edcc-4adb-4979-89a6-f937b42c0cf4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":108,
+  "width":60,
 }

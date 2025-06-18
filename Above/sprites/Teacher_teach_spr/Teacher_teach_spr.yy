@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Teacher_teach_spr",
   "bboxMode":0,
-  "bbox_bottom":639,
-  "bbox_left":66,
-  "bbox_right":503,
+  "bbox_bottom":150,
+  "bbox_left":16,
+  "bbox_right":118,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":640,
+  "height":151,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"028990ee-492d-4a58-97a6-5b500ec4d84a","blendMode":0,"displayName":"default","isLocked":false,"name":"028990ee-492d-4a58-97a6-5b500ec4d84a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":510,
+  "width":120,
 }

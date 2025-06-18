@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"CatBoy_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":185,
+  "bbox_bottom":154,
   "bbox_left":0,
-  "bbox_right":77,
+  "bbox_right":64,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":186,
+  "height":155,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a3d2be3f-5e31-43b9-a09d-58b8c00f5555","blendMode":0,"displayName":"default","isLocked":false,"name":"a3d2be3f-5e31-43b9-a09d-58b8c00f5555","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":78,
+  "width":65,
 }

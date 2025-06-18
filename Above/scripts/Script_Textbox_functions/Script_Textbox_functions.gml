@@ -42,6 +42,36 @@ function scr_set_defaults_for_text()
 				speaker_sprite[page_number] =  Mc_portrait_happy;
 				textb_spr[page_number] = spr_Mc_box;
 				break;
+				
+				case "Teach":
+				speaker_sprite[page_number] = Teacher_portrait;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Teach-angy":
+				speaker_sprite[page_number] = Teacher_portrait_angy;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Red":
+				speaker_sprite[page_number] = RedGirl_portrait;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Red-exap":
+				speaker_sprite[page_number] = RedGirl_portrait_exasp;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Blue":
+				speaker_sprite[page_number] = BlueBoy_portrait;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
+				
+				case "Blue-hapy":
+				speaker_sprite[page_number] = BlueBoy_portrait_hapy;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
 			}
 		}
 	

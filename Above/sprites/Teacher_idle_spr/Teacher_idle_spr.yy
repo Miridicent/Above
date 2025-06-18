@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Teacher_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":639,
+  "bbox_bottom":180,
   "bbox_left":0,
-  "bbox_right":352,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":640,
+  "height":181,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"33c7f96a-568e-4e6a-8a17-3b1c94ef4be9","blendMode":0,"displayName":"default","isLocked":false,"name":"33c7f96a-568e-4e6a-8a17-3b1c94ef4be9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":353,
+  "width":100,
 }

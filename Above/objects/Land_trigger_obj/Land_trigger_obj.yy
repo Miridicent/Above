@@ -6,8 +6,8 @@
   "name":"Land_trigger_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/World/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

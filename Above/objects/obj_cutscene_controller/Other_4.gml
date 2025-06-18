@@ -17,6 +17,8 @@ cutscene_steps = [];
 current_step = 0;
 step_timer = 0;
 
+// Only edit this part
+//------------------------------------------------
 // Step 1: Move NPC right
 array_push(cutscene_steps, {
     time: 60,
@@ -43,3 +45,4 @@ array_push(cutscene_steps, {
         move_object_to(global.npc1, global.npc1.x, global.npc1.y +164, 60);
     }
 });
+//----------------------------------------------------

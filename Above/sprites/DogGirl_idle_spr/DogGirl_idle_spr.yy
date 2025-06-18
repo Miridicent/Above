@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"DogGirl_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":173,
+  "bbox_bottom":136,
   "bbox_left":0,
-  "bbox_right":101,
+  "bbox_right":80,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":174,
+  "height":137,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"59a7b6d2-34c3-4493-9f20-e3281ffc90f8","blendMode":0,"displayName":"default","isLocked":false,"name":"59a7b6d2-34c3-4493-9f20-e3281ffc90f8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":108,
+  "width":85,
 }

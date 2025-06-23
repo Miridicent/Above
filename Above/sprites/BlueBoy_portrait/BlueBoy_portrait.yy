@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"BlueBoy_portrait",
   "bboxMode":0,
-  "bbox_bottom":77,
+  "bbox_bottom":129,
   "bbox_left":0,
-  "bbox_right":77,
+  "bbox_right":129,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":78,
+  "height":130,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4be9a224-9107-4212-8efe-7e3cc08ebd2e","blendMode":0,"displayName":"default","isLocked":false,"name":"4be9a224-9107-4212-8efe-7e3cc08ebd2e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":78,
+  "width":130,
 }

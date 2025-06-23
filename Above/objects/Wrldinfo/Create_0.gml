@@ -1,5 +1,8 @@
 
 K_shade = false;
+hasCup = false;
+flowerWater = false;
+
 
 // Camera move control variables
 global.cam_move_active = false;

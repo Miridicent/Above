@@ -34,13 +34,36 @@ function scr_game_text(_text_id){
 		// Abyss Mouth----------------------------------------------------------------------------------------------------------------------------------------
 		case "sign1":
 			scr_text("It's an old, worn sign. It reads...");
-			scr_text("'Beware all! This is the Abyss Mouth. Be warned that any mannaer of monstrosity could rise from the depths and attack at any moment!'");
+			scr_text("'Beware all! This is the Abyss Mouth. Be warned that any manner of monstrosity could rise from the depths and attack at any moment!'");
 			scr_text("...It's a little rude...");
 			break;
+		
+		case "bet1":
+			scr_text("H-hold up there!");
+			scr_text("...?", "Mc-conf");
+			scr_text("Yes! You!");
+			break;
+		
+		case "bet2":
+			scr_text("A small glowing orb-thing floats towards you.");
+			scr_text("You! You're not like the other creatures that come out from there...", "Orb");
+			scr_text("Could you be...? Well. it dose not matter right now. Tell me, do you know how to fight?", "Orb");
+			scr_text("Your arms feel a little limp and you legs like jelly, maybe you could use a refresher.");
+			scr_text("Don't bother answering, I can see it in your eyes. Here let me give you some opponents to fight.", "Orb");
+			break;
+		
+		case "bet3":
+			scr_text("That didn't seem so hard, maybe you could be just what I'm looking for.", "Orb");
+			scr_text("Listen your trying to get back 'Above' are you not?", "Orb");
+			scr_text("I could help with that but first we have to leave this ruin. Once we're outside I can explain more.", "Orb");
+			scr_text("Bye for now", "Orb");
+			break;
+		
 		//----------------------------------------------------------------------------------------------------------------------------------------------------
 		
 		// Abyss Ruins---------------------------------------------------------------------------------------------
 		case "flower1":
+		if (Wrldinfo.hasCup = false){
 			if (Wrldinfo.K_shade == false)
 				{
 				scr_text("A gooey monster is bearing a gloomy expression as it gazes upon the wilted flower.");
@@ -56,6 +79,36 @@ function scr_game_text(_text_id){
 				scr_text("(Maybe I could find something to help the flower grow?) ", "Mc");
 				break;
 				}
+		}
+		else if (Wrldinfo.hasCup = true && Wrldinfo.flowerWater = false){
+			scr_text("A shade is bearing a gloomy expression as it gazes upon the wilted flower.");
+			scr_text("...It dosen't seem to register your presence.");
+			scr_text("(Should I hand it this cup of water?) ", "Mc");
+				scr_option("Yes", "YesCup");
+				scr_option("No", "NoCup");
+			break;		
+			}
+			
+		else if (Wrldinfo.flowerWater = true)
+			{
+				scr_text("The shade continues to gaze upon the colorful flower.");
+				scr_text("When it sees you, it nuzzles your leg slightly.");
+				break;
+			}
+			
+			//Give the cup?
+			case "YesCup":
+			scr_text("It's... expression? Turns happy as it pours the water on the flower.");
+			scr_text("The flower perks up almost straight away.");
+			scr_text("The shade hands you somthing.");
+			scr_text("Gained shard of light");
+			break;
+		
+			case "NoCup":
+			scr_text("You decide to hold onto it for now...");
+			break;
+	
+			
 			
 		case "crack1":
 			scr_text("A crack has formed across the stone of this wall.");
@@ -118,6 +171,11 @@ function scr_game_text(_text_id){
 		scr_text("...Hi");
 		break;
 		
+		case "Teach1":
+		scr_text("...The empty desk... The one over there.", "Teach");
+		scr_text("Don't mind if it's a little dented, The kid that normally sits there has some... interesting past times.", "Teach");
+		break;
+		
 		//Classroom Cutscene 	
 		case "Class2":
 			scr_text("Alright now where was I?", "Teach");
@@ -126,7 +184,7 @@ function scr_game_text(_text_id){
 			break;
 			
 		case "Class2.5":
-			scr_text("So I thought it would be best if we got a live demonstration");
+			scr_text("So I thought it would be best if we got a live demonstration", "Teach");
 			break;
 		
 			
@@ -134,13 +192,13 @@ function scr_game_text(_text_id){
 			scr_text("...Wait, what?", "Red-exap");
 			scr_text("Woah! Really! I wanna be the one to fight it!", "Blue-hapy");
 			scr_text("You hear various murmurs of excitment and hesitation among the students...");
-			scr_text("You get the impression that this isn't what a normal day in class look like...");
+			scr_text("You get the impression that this isn't what a normal day in class looks like...");
 			break;
 			
 		case "Class3":
-			scr_text("Just then the room falls silent as a creature falls from the roof");
-			scr_text("This is a Shade! A premature one of course... any higher than that and the school board will give hell...", "Teach");
-			scr_text("Now, I think it would be best if we got a volunteer to fight this one, in order to demostrate it's propaties to the class.");
+			scr_text("Just then the room falls silent as a creature falls from the roof.");
+			scr_text("This is a Shade! A premature one of course... any higher than that and the school board will give me hell for it...", "Teach");
+			scr_text("Now, I think it would be best if we got a volunteer to fight this one, in order to demostrate it's propaties to the class.", "Teach");
 			scr_text("(The class has fallen silent)", "Mc");
 				scr_option("Raise your hand", "Class3 - Me");
 				scr_option("Remain seated", "Class3 - NotMe");
@@ -150,11 +208,18 @@ function scr_game_text(_text_id){
 		case "Class3 - Me":
 			scr_text("Oh? You're actually volunteering? That's a first... well get up here then.", "Teach");
 			break;
-		case "CLass3 - NotMe":
+		case "Class3 - NotMe":
 			scr_text("No volunteers? Alright then new kid! Your time to shine! Get up here", "Teach");
 			break;
 		case "Class3 - Thee":
 			scr_text("Well I-I know what I said... But I think the new kid should get a chance to shine" , "Blue");
+			scr_text("Great Idea! Good on you for letting others do all the hard work. Get up here then.", "Teach")
+			break;
+			
+		case "Class4":
+			scr_text("O-oh you... did it.", "Teach");
+			scr_text("(That was quick... I was hoping to a nap in...)", "Teach-angy");
+			scr_text("Well, good job. You can return to your seat.");
 			break;
 			
 			

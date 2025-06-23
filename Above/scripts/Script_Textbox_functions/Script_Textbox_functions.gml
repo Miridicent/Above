@@ -72,6 +72,11 @@ function scr_set_defaults_for_text()
 				speaker_sprite[page_number] = BlueBoy_portrait_hapy;
 				textb_spr[page_number] = spr_Mc_box;
 				break;
+				
+				case "Orb":
+				speaker_sprite[page_number] = Orb_portrait;
+				textb_spr[page_number] = spr_Mc_box;
+				break;
 			}
 		}
 	

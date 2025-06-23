@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"RedGirl_portrait",
   "bboxMode":0,
-  "bbox_bottom":71,
+  "bbox_bottom":107,
   "bbox_left":0,
-  "bbox_right":95,
+  "bbox_right":143,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":72,
+  "height":108,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"ec8cd87a-9760-4c9d-90a4-23d7d8e0222f","blendMode":0,"displayName":"default","isLocked":false,"name":"ec8cd87a-9760-4c9d-90a4-23d7d8e0222f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":144,
 }

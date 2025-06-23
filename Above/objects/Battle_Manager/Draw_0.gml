@@ -48,7 +48,7 @@ for (var i = 0; (i < array_length(enemyUnits)) && (_drawn < _drawLimit); i++)
 		_drawn++;
 		draw_set_color(c_white);
 		if (_char.id == _unitWithCurrentTurn) draw_set_color(c_blue);
-		draw_text(x+COLUM_ENEMY, y+670+(i*12),_char.name);
+		draw_text(x+COLUM_ENEMY, y+670+(i*20),_char.name);
 	}
 }
 

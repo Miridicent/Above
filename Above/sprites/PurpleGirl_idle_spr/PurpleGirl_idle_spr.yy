@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"PurpleGirl_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":201,
+  "bbox_bottom":176,
   "bbox_left":0,
-  "bbox_right":79,
+  "bbox_right":69,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":202,
+  "height":177,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c9d3a89e-26d6-42a1-b489-31b88eb19ce4","blendMode":0,"displayName":"default","isLocked":false,"name":"c9d3a89e-26d6-42a1-b489-31b88eb19ce4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":80,
+  "width":70,
 }

@@ -63,12 +63,13 @@ function camera_in_position(cam, target_x, target_y, threshold)
     return (abs(cx - target_x) < threshold && abs(cy - target_y) < threshold);
 }
 
-function switch_sprites(inst, new_sprite, flip)
+function switch_sprites(inst, new_sprite)
 {
 	inst.sprite_index = new_sprite;
 	
-	if argument_count > 2
-	{
-		inst.image_xscale = flip;
-	}
+}
+
+function destroy_instance(inst)
+{
+	instance_destroy(inst);
 }

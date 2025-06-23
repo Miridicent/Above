@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"PurpleGirl_moving_spr",
   "bboxMode":0,
-  "bbox_bottom":317,
+  "bbox_bottom":176,
   "bbox_left":0,
-  "bbox_right":125,
+  "bbox_right":69,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":318,
+  "height":177,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bd02a247-2efe-4d19-9140-8cc7aa5f5332","blendMode":0,"displayName":"default","isLocked":false,"name":"bd02a247-2efe-4d19-9140-8cc7aa5f5332","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":126,
+  "width":70,
 }

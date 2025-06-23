@@ -39,6 +39,6 @@ else
     // Reattach camera to follow the player
 	camera_set_view_target(view_camera[0], Player);
 	camera_set_view_border(view_camera[0], 800, 800);
-	instance_create_layer(416, 786, "Instances", Cut2_trigger );
+	instance_create_layer(384, 736, "Instances", Cut2_trigger );
 	instance_destroy(); // Only destroy if this object is no longer needed
 }

@@ -13,6 +13,21 @@ function NewEncounter(_enemies, _bg)
 	);
 }
 
+function NewEncounterCut(_enemies, _bg)
+{
+	instance_create_depth
+	(
+	
+		camera_get_view_x(view_camera[0]),
+		camera_get_view_y(view_camera[0]),
+		-9999,
+		Battle_Manager,
+		{enemies: _enemies, 
+		
+		background: _bg}
+	);
+}
+
 function BattleChangeHP(_target, _amount, _AliveDeadoreither = 0)
 {
 	var _failed = false;

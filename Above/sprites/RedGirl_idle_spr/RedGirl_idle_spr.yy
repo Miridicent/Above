@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"RedGirl_idle_spr",
   "bboxMode":0,
-  "bbox_bottom":196,
+  "bbox_bottom":176,
   "bbox_left":0,
-  "bbox_right":99,
+  "bbox_right":89,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":197,
+  "height":177,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6bdbb42e-c7a7-49fe-a4c1-47f8a0330dde","blendMode":0,"displayName":"default","isLocked":false,"name":"6bdbb42e-c7a7-49fe-a4c1-47f8a0330dde","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":90,
 }

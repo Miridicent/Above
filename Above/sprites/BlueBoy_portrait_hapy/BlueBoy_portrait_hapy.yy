@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"BlueBoy_portrait_hapy",
   "bboxMode":0,
-  "bbox_bottom":77,
+  "bbox_bottom":143,
   "bbox_left":0,
-  "bbox_right":77,
+  "bbox_right":143,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":78,
+  "height":144,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"92588754-20c1-4f80-b672-ba37c3d86661","blendMode":0,"displayName":"default","isLocked":false,"name":"92588754-20c1-4f80-b672-ba37c3d86661","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":78,
+  "width":144,
 }

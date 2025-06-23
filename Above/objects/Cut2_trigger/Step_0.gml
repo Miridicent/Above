@@ -1,5 +1,11 @@
 if (In_progress && place_meeting(x, y, Player))
 {
+	// The player now knows about shades
+	if(Wrldinfo.K_shade == false)
+	{
+		Wrldinfo.K_shade = true;
+	}
+	
     // Only set up camera once
     if (!camera_initialized)
     {

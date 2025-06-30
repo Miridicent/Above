@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Abyss_Ruins_1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Abyss_Ruins_1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -197,7 +197,7 @@
   "roomSettings":{
     "Height":4000,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":4000,
   },
   "sequenceId":null,

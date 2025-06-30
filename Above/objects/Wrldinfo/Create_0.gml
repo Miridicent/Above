@@ -2,6 +2,7 @@
 K_shade = false;
 hasCup = false;
 flowerWater = false;
+classrumble = false;
 
 
 // Camera move control variables

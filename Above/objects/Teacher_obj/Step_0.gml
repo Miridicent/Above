@@ -10,3 +10,4 @@ if (cutscene_moving) {
     x = lerp(move_start_x, move_target_x, t);
     y = lerp(move_start_y, move_target_y, t);
 }
+

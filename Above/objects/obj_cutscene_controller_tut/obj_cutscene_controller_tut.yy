@@ -9,8 +9,8 @@
   "name":"obj_cutscene_controller_tut",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Mouth",
+    "path":"folders/Objects/Cutscenes/Mouth.yy",
   },
   "parentObjectId":null,
   "persistent":false,

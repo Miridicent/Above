@@ -5,10 +5,24 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-  "instanceCreationOrder":[],
+  "instanceCreationOrder":[
+    {"name":"inst_597A03FA","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+    {"name":"inst_4721A294","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+    {"name":"inst_3861425C","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+    {"name":"inst_632E3E24","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+    {"name":"inst_228E237A","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+    {"name":"inst_60B71D26","path":"rooms/Abyss_Puzzle_room/Abyss_Puzzle_room.yy",},
+  ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_597A03FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_597A03FA","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":318.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4721A294","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4721A294","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":512.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3861425C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3861425C","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":318.0,},
+        {"$GMRInstance":"v1","%Name":"inst_632E3E24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_632E3E24","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":510.0,},
+        {"$GMRInstance":"v1","%Name":"inst_228E237A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_228E237A","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_60B71D26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60B71D26","objectId":{"name":"Gate_plates_obj","path":"objects/Gate_plates_obj/Gate_plates_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":702.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":30,"TileCompressedData":[
           -2,-2147483648,-25,12,-5,-2147483648,1,12,-23,11,1,12,-5,-2147483648,1,11,-23,9,1,11,-3,-2147483648,
           -2,7,-25,9,-2,7,1,-2147483648,-29,9,1,-2147483648,-29,9,3,-2147483648,1,1,-25,9,-2,1,-3,-2147483648,

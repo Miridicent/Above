@@ -24,8 +24,8 @@
     {"name":"inst_323EC352","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
     {"name":"inst_45A071BE","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
     {"name":"inst_3F7D1482","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
-    {"name":"inst_87AAAF0","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
     {"name":"inst_506EB3FE","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
+    {"name":"inst_495399CC","path":"rooms/Abyss_Ruins_classroom/Abyss_Ruins_classroom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -48,8 +48,8 @@
         {"$GMRInstance":"v1","%Name":"inst_323EC352","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_323EC352","objectId":{"name":"redgirl_obj","path":"objects/redgirl_obj/redgirl_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_45A071BE","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45A071BE","objectId":{"name":"DogGirl","path":"objects/DogGirl/DogGirl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_3F7D1482","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F7D1482","objectId":{"name":"CatBoy","path":"objects/CatBoy/CatBoy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":800.0,"y":352.0,},
-        {"$GMRInstance":"v1","%Name":"inst_87AAAF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_87AAAF0","objectId":{"name":"Premature_Shade_obj","path":"objects/Premature_Shade_obj/Premature_Shade_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":-224.0,},
         {"$GMRInstance":"v1","%Name":"inst_506EB3FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_506EB3FE","objectId":{"name":"Pathway_obj","path":"objects/Pathway_obj/Pathway_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.24431683,"scaleY":0.24431683,"x":1280.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_495399CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_495399CC","objectId":{"name":"Premature_Shade_obj_1","path":"objects/Premature_Shade_obj_1/Premature_Shade_obj_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":-224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":17,"TileCompressedData":[
           1,2,-15,12,2,10,2,-15,11,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,9,2,10,2,-15,
@@ -134,7 +134,7 @@
   "roomSettings":{
     "Height":2000,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":1600,
   },
   "sequenceId":null,

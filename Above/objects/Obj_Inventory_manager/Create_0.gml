@@ -19,6 +19,12 @@ global.item_list =
 		"A cup, maybe it can be used to hold something"
 		),
 		
+	FCup : new create_item
+		(
+		"Filled Cup",
+		"A cup that's been filled with water."
+		),
+		
 	}
 	
 //create the inventory 

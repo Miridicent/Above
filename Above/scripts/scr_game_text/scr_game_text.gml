@@ -222,6 +222,48 @@ function scr_game_text(_text_id){
 			scr_text("Well, good job. You can return to your seat.");
 			break;
 			
+		case "Class5":
+			scr_text("Now... where were we...", "Teach");
+			scr_text("Suddenly you hear a crash outside the classroom along with everyone else.");
+			break;
+			
+		case "Class6":
+			scr_text("...what was that?", "Red");
+			scr_text("Oh!, Oh! Could it be a shade! Now is my time to redeem myself!", "Blue-hapy");
+			break;
+			
+		case "Class7":
+			scr_text("Hey! Get back here!", "Teach");
+			scr_text("___, Don't run off!", "Red-exap");
+			break;
+			
+		case "Class8":
+			scr_text("Uh oh..., I may have been a bitten off a bit more than I can chew...", "Blue");
+			scr_text("Um, New kid? You were pretty strong... Can you help?", "Blue");
+			scr_text("You step forward to engage.");
+			break;
+			
+		case "Class9": 
+			scr_text("Thanks a lot! We should probably go back before the teacher get's mad", "Blue-hapy");
+			scr_text("Well, madder than usual.", "Blue");
+			break;
+		
+		case "Class10": 
+			scr_text("___! How could you do something so reckless!", "Red-exap");
+			scr_text("If this girl, a complete stranger mind you. Didn't come here to rescue you, Who knows what could've happened!", "Red-exap");
+			scr_text("Remember to thank her later.", "Red");
+			scr_text("Yes 'Mum'", "Blue");
+			break;
+			
+		case "Class11:":
+			scr_text("Sorry about that teach...", "Blue");
+			scr_text("You should be sorry!", "Teach-angy");
+			scr_text("Normally I'd give you detention. But class time is over now, so I don't care.", "Teach");
+			scr_text("Class dissmissed.", "Teach");
+		//-----------------------------------------------------------------------------------------------------------------
+		
+		//Post class
+			
 			
 	}
 

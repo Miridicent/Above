@@ -9,8 +9,8 @@
   "name":"obj_cutscene_controller_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Classroom",
+    "path":"folders/Objects/Cutscenes/Classroom.yy",
   },
   "parentObjectId":null,
   "persistent":false,

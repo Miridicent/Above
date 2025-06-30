@@ -1,1 +1,1 @@
-room_goto(Test_Room);
+room_goto(Abyss_Mouth);

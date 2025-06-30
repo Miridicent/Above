@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Shade_construct_battle_attack",
   "bboxMode":0,
-  "bbox_bottom":515,
+  "bbox_bottom":252,
   "bbox_left":0,
-  "bbox_right":438,
+  "bbox_right":214,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":516,
+  "height":253,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e7907f85-c7d5-4273-a90a-be63bd167b54","blendMode":0,"displayName":"default","isLocked":false,"name":"e7907f85-c7d5-4273-a90a-be63bd167b54","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":439,
+  "width":215,
 }

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Shade_Construct_battle_spr",
   "bboxMode":0,
-  "bbox_bottom":515,
+  "bbox_bottom":252,
   "bbox_left":0,
-  "bbox_right":438,
+  "bbox_right":214,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":516,
+  "height":253,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b848eaeb-1abd-4023-9f24-550db9c38071","blendMode":0,"displayName":"default","isLocked":false,"name":"b848eaeb-1abd-4023-9f24-550db9c38071","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":439,
+  "width":215,
 }

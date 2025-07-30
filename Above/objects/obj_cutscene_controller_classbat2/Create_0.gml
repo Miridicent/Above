@@ -1,12 +1,3 @@
-
-
-with (all) {
-    if (variable_instance_exists(id, "tag") && tag == "Mc") {
-        global.mc = id;
-    }
-	
-}
-
 // Start the cutscene
 is_cutscene_active = true;
 global.cutscene_active = true;

@@ -92,6 +92,31 @@ global.actionLibrary =
 		
 	},
 	
+	regen :
+	{
+		name: "Regen",
+		description: "{0} used Regen",
+		subMenu : -1,
+		mpCost : 3,
+		targetRequired : true,
+		targetEnemyByDefault : false,
+		targetAll : MODE.NEVER,
+		userAnimation : "cast",
+		effectSprite : noone,
+		effectOnTarget : MODE.ALWAYS,
+		func : function (_user, _targets)
+		{
+			var _heal = irandom_range(5, 10);
+			BattleChangeHP(_targets[0], _heal);
+			BattleChangeMP(_user, - mpCost);
+			if (_user.hp > _user.hpMax)
+			{
+				_user.hp = _user.hpMax;
+			}
+		}
+		
+	},
+	
 	escape :
 	{
 		name: "Escape",
@@ -202,6 +227,29 @@ global.enemies =
 		sprites: {idle: Shade_Construct_battle_spr, attack: Shade_Construct_battle_spr},
 		actions: [global.actionLibrary.attack],
 		xpValue: 5,
+		AIscript: function()
+		{
+			var _action = actions[0];
+			var _possibleTargets = array_filter(Battle_Manager.PlayerU, function(_unit, _index)
+			{
+				return (_unit.hp > 0);
+			});
+			var _target = _possibleTargets[irandom(array_length(_possibleTargets)-1)];
+			return [_action, _target];
+		}
+	},
+	
+	Ruin_boss:
+	{
+		name: "Frenzied Shade",
+		hp: 20,
+		hpMax: 20,
+		mp: 10,
+		mpMax: 10,
+		Str: 6,
+		sprites: {idle: Ruin_boss_Battle_spr, attack: Ruin_Boss_Battle_attack_spr},
+		actions: [global.actionLibrary.attack, global.actionLibrary.regen],
+		xpValue: 200,
 		AIscript: function()
 		{
 			var _action = actions[0];

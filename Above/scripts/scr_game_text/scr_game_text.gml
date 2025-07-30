@@ -218,8 +218,8 @@ function scr_game_text(_text_id){
 			
 		case "Class4":
 			scr_text("O-oh you... did it.", "Teach");
-			scr_text("(That was quick... I was hoping to a nap in...)", "Teach-angy");
-			scr_text("Well, good job. You can return to your seat.");
+			scr_text("(That was quick... I was hoping to get a nap in...)", "Teach-angy");
+			scr_text("Well, good job. You can return to your seat.", "Teach");
 			break;
 			
 		case "Class5":
@@ -254,12 +254,21 @@ function scr_game_text(_text_id){
 			scr_text("Remember to thank her later.", "Red");
 			scr_text("Yes 'Mum'", "Blue");
 			break;
+		
+		case "Class11":
+			scr_text("You three!", "Teach_angy");
+			scr_text("You here a booming voice behind you.");
+			scr_text("...Uh oh.", "Blue");
+			break;
 			
-		case "Class11:":
+		case "Class12":
+			scr_text("What were you three thinking! Running into danger like that", "Teach-angy");
 			scr_text("Sorry about that teach...", "Blue");
 			scr_text("You should be sorry!", "Teach-angy");
 			scr_text("Normally I'd give you detention. But class time is over now, so I don't care.", "Teach");
 			scr_text("Class dissmissed.", "Teach");
+			scr_text("Try not to get into any other life and death struggles until next class.", "Teach");
+			break;
 		//-----------------------------------------------------------------------------------------------------------------
 		
 		//Post class

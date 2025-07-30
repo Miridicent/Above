@@ -14,8 +14,9 @@
         {"$GMRInstance":"v1","%Name":"inst_213F4D99","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_213F4D99","objectId":{"name":"Water_fountain_obj","path":"objects/Water_fountain_obj/Water_fountain_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.693233,"scaleY":7.693233,"x":480.0,"y":-544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":15,"TileCompressedData":[
-          -15,12,-15,11,1,2,-12,9,3,10,-2147483648,2,-12,9,3,10,-2147483648,2,-12,9,3,10,-2147483648,2,-12,9,3,
-          10,-2147483648,2,-12,9,3,10,-2147483648,2,-12,9,2,10,-2147483648,-4,12,-6,9,-4,12,-16,-2147483648,
+          -15,12,-15,11,1,2,-12,9,3,10,-2147483648,2,-5,9,-2,13,-5,9,3,10,-2147483648,2,-5,9,-2,13,-5,9,3,10,-2147483648,
+          2,-5,9,-2,13,-5,9,3,10,-2147483648,2,-5,9,-2,13,-5,9,3,10,-2147483648,2,-5,9,-2,13,-5,9,2,10,-2147483648,
+          -4,12,-2,9,-2,13,-2,9,-4,12,-16,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Abyss_Ruins_TS","path":"tilesets/Abyss_Ruins_TS/Abyss_Ruins_TS.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Wall","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":55,"SerialiseWidth":86,"TileCompressedData":[
           -433,-2147483648,-78,3,-8,-2147483648,-78,3,-8,-2147483648,-78,3,-8,-2147483648,-3,3,-64,-2147483648,

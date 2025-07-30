@@ -21,6 +21,12 @@ if place_meeting(x, y + yspd, tilecollide)
 	yspd = 0;
 }
 
+if place_meeting(x + xspd , y, Puzzle_gate_obj)
+{
+	xspd = 0;
+}
+
+
 //move_player
 x += xspd;
 y += yspd;

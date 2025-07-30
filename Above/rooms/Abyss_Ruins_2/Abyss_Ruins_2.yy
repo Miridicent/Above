@@ -23,8 +23,8 @@
         {"$GMRInstance":"v1","%Name":"inst_73782FAB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73782FAB","objectId":{"name":"PurpleGirl","path":"objects/PurpleGirl/PurpleGirl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.76282036,"scaleY":0.76282054,"x":2048.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":34,"TileCompressedData":[
-          -33,12,1,-2147483648,-33,12,1,-2147483648,-33,11,1,-2147483648,-33,9,1,0,-33,9,1,0,-33,9,1,0,-33,9,1,
-          0,-33,9,1,-2147483648,
+          -33,12,1,-2147483648,-33,12,1,-2147483648,-33,11,1,-2147483648,-33,9,1,0,-33,13,1,0,-33,13,1,0,-33,13,
+          1,0,-33,9,1,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Abyss_Ruins_TS","path":"tilesets/Abyss_Ruins_TS/Abyss_Ruins_TS.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Wall","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":199,"TileCompressedData":[
           -1596,-2147483648,-6,0,-84,-2147483648,-16,1,-93,-2147483648,-6,0,-84,-2147483648,-16,1,-89,-2147483648,

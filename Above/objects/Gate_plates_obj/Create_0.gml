@@ -1,2 +1,3 @@
 On = false;
-Puzzle_inprogress = false;
+One = false;
+was_on = false;

@@ -3,6 +3,19 @@ K_shade = false;
 hasCup = false;
 flowerWater = false;
 classrumble = false;
+classbattle = false;
+
+Puzzle_progress = 0;
+
+//Gate plates
+one = false;
+two = false;
+three = false;
+four = false;
+five = false;
+six = false;
+
+
 
 
 // Camera move control variables

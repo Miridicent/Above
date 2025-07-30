@@ -17,3 +17,31 @@ if (global.cam_move_active) {
         global.cam_move_active = false;
     }
 }
+
+if (Puzzle_progress == 3)
+{
+	if (two == true && four == true && five == true)
+	{
+		if (instance_exists(Puzzle_gate_obj))
+		{
+			instance_destroy(Puzzle_gate_obj);
+			show_debug_message("Gate opened");
+		}
+	}
+	
+	else
+	{
+		Puzzle_progress = 0;
+		
+		one = false;
+		two = false;
+		three = false;
+		four = false;
+		five = false;
+		six = false;
+		
+		show_debug_message("Not correct");
+	}
+}
+
+if classbattle = true {instance_activate_object(Cup)}

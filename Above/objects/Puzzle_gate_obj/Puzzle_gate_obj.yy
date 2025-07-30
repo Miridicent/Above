@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Puzzle_gate_spr",
     "path":"sprites/Puzzle_gate_spr/Puzzle_gate_spr.yy",

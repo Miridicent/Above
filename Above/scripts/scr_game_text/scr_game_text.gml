@@ -117,11 +117,6 @@ function scr_game_text(_text_id){
 			
 		//Abyss_classroom--------------------------------------------------------------------------------------------
 		
-		case "cup1":
-			scr_text("It's a cup left by one of the students.");
-			scr_text("Maybe it can be used for something...");
-			scr_text("(Cup added to inventory)");
-			break;
 		
 		case "Class1":
 			scr_text("Hmmm? What's going on in here?");
@@ -234,7 +229,7 @@ function scr_game_text(_text_id){
 			
 		case "Class7":
 			scr_text("Hey! Get back here!", "Teach");
-			scr_text("___, Don't run off!", "Red-exap");
+			scr_text("Blue!, Don't run off!", "Red-exap");
 			break;
 			
 		case "Class8":
@@ -249,7 +244,7 @@ function scr_game_text(_text_id){
 			break;
 		
 		case "Class10": 
-			scr_text("___! How could you do something so reckless!", "Red-exap");
+			scr_text("Blue! How could you do something so reckless!", "Red-exap");
 			scr_text("If this girl, a complete stranger mind you. Didn't come here to rescue you, Who knows what could've happened!", "Red-exap");
 			scr_text("Remember to thank her later.", "Red");
 			scr_text("Yes 'Mum'", "Blue");
@@ -272,6 +267,26 @@ function scr_game_text(_text_id){
 		//-----------------------------------------------------------------------------------------------------------------
 		
 		//Post class
+		case "Boss1":
+			scr_text("Hmmmm, that seems to be the exit...");
+			break;
+		
+		//Item Get
+		case "cup1":
+			scr_text("It's a cup left by one of the students.");
+			scr_text("Maybe it can be used for something...");
+			scr_text("(Cup added to inventory)");
+			break;
+			
+		case "WaterCup":
+			scr_text("It's a fountain...");
+			scr_text("You decide to scoop up some water with the cup.");
+			scr_text("You got a Cup of Water.");
+			break;
+			
+		case "AltWaterCup":
+			scr_text("You don't need anymore water.");
+			break;
 			
 			
 	}

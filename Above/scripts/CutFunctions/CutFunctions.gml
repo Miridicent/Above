@@ -66,7 +66,6 @@ function camera_in_position(cam, target_x, target_y, threshold)
 function switch_sprites(inst, new_sprite)
 {
 	inst.sprite_index = new_sprite;
-	
 }
 
 function destroy_instance(inst)

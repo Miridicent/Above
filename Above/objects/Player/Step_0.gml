@@ -34,7 +34,9 @@ y += yspd;
 
 //Collisions 
 
-
+if (layer_exists("Wall")){
+tilecollide = layer_tilemap_get_id("Wall");
+}
 
 //Set Sprite
 if yspd == 0{

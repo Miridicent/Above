@@ -6,4 +6,6 @@ if (keyboard_check_pressed(vk_enter && _contains))
 {
 	item_remove(Cup);
 	item_add(FCup);
+	create_textbox("WaterCup");
 }
+

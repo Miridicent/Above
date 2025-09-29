@@ -26,6 +26,24 @@ global.actionLibrary =
 		}
 	},
 	
+	Hevattack :
+	{
+		name : "Heavy Attack",
+		description : "{0} attacks Hard!",
+		subMenu : -1,
+		targetRequired : true,
+		targetEnemyByDefault : true,
+		targetAll : MODE.NEVER,
+		userAnimation : "attack",
+		effectSprite : Attack_effect,
+		effectOnTarget : MODE.ALWAYS,
+		func : function(_user, _targets)
+		{
+			var _damage = ceil(_user.Str + random_range(- _user.Str * 0.5, _user.Str * 0.5));
+			BattleChangeHP(_targets[0], -_damage, 0);
+		}
+	},
+	
 	dark :
 	{
 		name: "Dark",
@@ -248,7 +266,7 @@ global.enemies =
 		mpMax: 10,
 		Str: 6,
 		sprites: {idle: Ruin_boss_Battle_spr, attack: Ruin_Boss_Battle_attack_spr},
-		actions: [global.actionLibrary.attack, global.actionLibrary.regen],
+		actions: [global.actionLibrary.attack, global.actionLibrary.Hevattack, global.actionLibrary.regen],
 		xpValue: 200,
 		AIscript: function()
 		{

@@ -271,6 +271,11 @@ function scr_game_text(_text_id){
 			scr_text("Hmmmm, that seems to be the exit...");
 			break;
 		
+		case "Boss2":
+			scr_text("...Uh oh...");
+			scr_text("This one looks a little tougher than the others!");
+			break;
+		
 		//Item Get
 		case "cup1":
 			scr_text("It's a cup left by one of the students.");

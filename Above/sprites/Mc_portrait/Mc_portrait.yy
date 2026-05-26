@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Mc_portrait",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eeab2bd9-2090-432d-9390-2d0aa66aa2ba","name":"eeab2bd9-2090-432d-9390-2d0aa66aa2ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f564ed2c-71e4-4a94-8f09-509b508a0cc1","name":"f564ed2c-71e4-4a94-8f09-509b508a0cc1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"21ec25dc-d20a-4eee-b1aa-0e1a9bf7f9b5","name":"21ec25dc-d20a-4eee-b1aa-0e1a9bf7f9b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e9088c1a-fc0b-4033-907c-dac032a531a4","name":"e9088c1a-fc0b-4033-907c-dac032a531a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"76fba685-7cfb-4477-88f7-26f7bb3c3765","name":"76fba685-7cfb-4477-88f7-26f7bb3c3765","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eeab2bd9-2090-432d-9390-2d0aa66aa2ba","name":"eeab2bd9-2090-432d-9390-2d0aa66aa2ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f564ed2c-71e4-4a94-8f09-509b508a0cc1","name":"f564ed2c-71e4-4a94-8f09-509b508a0cc1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21ec25dc-d20a-4eee-b1aa-0e1a9bf7f9b5","name":"21ec25dc-d20a-4eee-b1aa-0e1a9bf7f9b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e9088c1a-fc0b-4033-907c-dac032a531a4","name":"e9088c1a-fc0b-4033-907c-dac032a531a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76fba685-7cfb-4477-88f7-26f7bb3c3765","name":"76fba685-7cfb-4477-88f7-26f7bb3c3765","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Mc_portrait",
     "autoRecord":true,
     "backdropHeight":768,

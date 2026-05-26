@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"MC_Battle_Attack",
   "bboxMode":0,
   "bbox_bottom":89,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"13d82ae0-56ed-42f7-a19e-0e62b06668f9","name":"13d82ae0-56ed-42f7-a19e-0e62b06668f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"09f50c1f-3deb-4012-9805-a10ea51df178","name":"09f50c1f-3deb-4012-9805-a10ea51df178","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99d2f623-61ac-4904-a34c-172e02b2a8e4","name":"99d2f623-61ac-4904-a34c-172e02b2a8e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"804f927d-61a7-48b8-9fec-4cb6e4ab27bd","name":"804f927d-61a7-48b8-9fec-4cb6e4ab27bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"67a600d5-253a-4862-a22a-7a35187a36a0","name":"67a600d5-253a-4862-a22a-7a35187a36a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"13d82ae0-56ed-42f7-a19e-0e62b06668f9","name":"13d82ae0-56ed-42f7-a19e-0e62b06668f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"09f50c1f-3deb-4012-9805-a10ea51df178","name":"09f50c1f-3deb-4012-9805-a10ea51df178","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99d2f623-61ac-4904-a34c-172e02b2a8e4","name":"99d2f623-61ac-4904-a34c-172e02b2a8e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"804f927d-61a7-48b8-9fec-4cb6e4ab27bd","name":"804f927d-61a7-48b8-9fec-4cb6e4ab27bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"67a600d5-253a-4862-a22a-7a35187a36a0","name":"67a600d5-253a-4862-a22a-7a35187a36a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"MC_Battle_Attack",
     "autoRecord":true,
     "backdropHeight":768,

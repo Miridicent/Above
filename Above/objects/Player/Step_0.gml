@@ -80,6 +80,15 @@ else
 	}
 }
 
+if (room == Abyss_Ruins_battle)
+{
+	depth = 100;
+}
+else
+{
+	depth = -9998;
+}
+
 if (keyboard_check_pressed(vk_escape))
 {
 	game_end();

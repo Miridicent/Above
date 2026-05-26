@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Teacher_portrait",
   "bboxMode":0,
   "bbox_bottom":119,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ea707ab4-1f07-4da2-b7b5-452d2f2d97b0","name":"ea707ab4-1f07-4da2-b7b5-452d2f2d97b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3ea87b80-1663-467a-8cd3-6c4d6e1d1759","name":"3ea87b80-1663-467a-8cd3-6c4d6e1d1759","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea707ab4-1f07-4da2-b7b5-452d2f2d97b0","name":"ea707ab4-1f07-4da2-b7b5-452d2f2d97b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3ea87b80-1663-467a-8cd3-6c4d6e1d1759","name":"3ea87b80-1663-467a-8cd3-6c4d6e1d1759","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Teacher_portrait",
     "autoRecord":true,
     "backdropHeight":768,

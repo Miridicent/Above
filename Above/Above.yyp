@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Above",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -53,11 +53,12 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Above",
   "resources":[
@@ -79,6 +80,7 @@
     {"id":{"name":"CatBoy","path":"objects/CatBoy/CatBoy.yy",},},
     {"id":{"name":"Cut_trigger","path":"objects/Cut_trigger/Cut_trigger.yy",},},
     {"id":{"name":"Cut2_trigger","path":"objects/Cut2_trigger/Cut2_trigger.yy",},},
+    {"id":{"name":"Cut3_trigger_Boss","path":"objects/Cut3_trigger_Boss/Cut3_trigger_Boss.yy",},},
     {"id":{"name":"Cut3_trigger","path":"objects/Cut3_trigger/Cut3_trigger.yy",},},
     {"id":{"name":"Desk","path":"objects/Desk/Desk.yy",},},
     {"id":{"name":"DogGirl","path":"objects/DogGirl/DogGirl.yy",},},
@@ -95,7 +97,7 @@
     {"id":{"name":"Item_Button_obj","path":"objects/Item_Button_obj/Item_Button_obj.yy",},},
     {"id":{"name":"Land_trigger_obj","path":"objects/Land_trigger_obj/Land_trigger_obj.yy",},},
     {"id":{"name":"obj_cutscene_controller_2","path":"objects/obj_cutscene_controller_2/obj_cutscene_controller_2.yy",},},
-    {"id":{"name":"obj_cutscene_controller_classbat_1","path":"objects/obj_cutscene_controller_classbat_1/obj_cutscene_controller_classbat_1.yy",},},
+    {"id":{"name":"obj_cutscene_controller_bossroom","path":"objects/obj_cutscene_controller_bossroom/obj_cutscene_controller_bossroom.yy",},},
     {"id":{"name":"obj_cutscene_controller_classbat","path":"objects/obj_cutscene_controller_classbat/obj_cutscene_controller_classbat.yy",},},
     {"id":{"name":"obj_cutscene_controller_classbat2","path":"objects/obj_cutscene_controller_classbat2/obj_cutscene_controller_classbat2.yy",},},
     {"id":{"name":"obj_cutscene_controller_classexit","path":"objects/obj_cutscene_controller_classexit/obj_cutscene_controller_classexit.yy",},},
@@ -142,6 +144,7 @@
     {"id":{"name":"Abyss_Ruins_final_room","path":"rooms/Abyss_Ruins_final_room/Abyss_Ruins_final_room.yy",},},
     {"id":{"name":"Abyss_Ruins_side","path":"rooms/Abyss_Ruins_side/Abyss_Ruins_side.yy",},},
     {"id":{"name":"Battle_Room","path":"rooms/Battle_Room/Battle_Room.yy",},},
+    {"id":{"name":"End_room","path":"rooms/End_room/End_room.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"Test_Room","path":"rooms/Test_Room/Test_Room.yy",},},
     {"id":{"name":"Test_Room2","path":"rooms/Test_Room2/Test_Room2.yy",},},
@@ -269,6 +272,7 @@
     {"roomId":{"name":"Abyss_Ruins_2","path":"rooms/Abyss_Ruins_2/Abyss_Ruins_2.yy",},},
     {"roomId":{"name":"Abyss_Ruins_final_room","path":"rooms/Abyss_Ruins_final_room/Abyss_Ruins_final_room.yy",},},
     {"roomId":{"name":"Abyss_Ruins_3","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},},
+    {"roomId":{"name":"End_room","path":"rooms/End_room/End_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

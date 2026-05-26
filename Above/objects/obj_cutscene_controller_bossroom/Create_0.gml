@@ -5,7 +5,7 @@ with (all) {
         global.mc = id;
     }
 	
-	else if (variable_instance_exits(id, "tag") && tag == "boss1"){
+	else if (variable_instance_exists(id, "tag") && tag == "boss1"){
 		global.boss1 = id;
 	}
 	
@@ -26,7 +26,7 @@ array_push(cutscene_steps, {
     time: 60,
 	wait_for_textbox: false,
     action: function () {
-        move_object_to(global.mc, global.mc.x, global.npc1.y + 400, 60, MC_BackM);
+        move_object_to(global.mc, global.mc.x, global.mc.y - 400, 60, MC_BackM);
     }
 });
 
@@ -42,8 +42,9 @@ array_push(cutscene_steps, {
 array_push(cutscene_steps, {
     time: 60,
 	wait_for_textbox: false,
+	wait_for_battle: false,
     action: function () {
-        move_object_to(global.mc, global.mc.x, global.npc1.y + 100, 60, MC_BackM);
+        move_object_to(global.mc, global.mc.x, global.mc.y - 400, 60, MC_BackM);
 		// Shake Camera
     }
 });
@@ -51,10 +52,20 @@ array_push(cutscene_steps, {
 array_push(cutscene_steps, {
     time: 60,
 	wait_for_textbox: false,
+	wait_for_battle: false,
     action: function () {
-        move_object_to(global.boss1, global.boss1.x, global.boss1.y - 400, 60, MC_BackM);
+        move_object_to(global.boss1, global.boss1.x, global.boss1.y + 1000, 60);
 		//Smash sound 
 		//Camera Shake
+    }
+});
+
+array_push(cutscene_steps, {
+    time: 0,
+	wait_for_textbox: true,
+	wait_for_battle: false,
+    action: function () {
+        create_textbox("Boss2");
     }
 });
 
@@ -64,6 +75,7 @@ array_push(cutscene_steps, {
 	wait_for_battle: true,
 	action: function () {
 		NewEncounterCut([global.enemies.Ruin_boss], Test_background_spr);
+		instance_destroy(Ruin_Boss);
 }
 
 /*array_push(cutscene_steps, {

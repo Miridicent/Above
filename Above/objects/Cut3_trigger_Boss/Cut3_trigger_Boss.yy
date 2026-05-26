@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cutscene_controller_classbat_1",
+  "%Name":"Cut3_trigger_Boss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cutscene_controller_classbat_1",
+  "name":"Cut3_trigger_Boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Exit",
-    "path":"folders/Objects/Cutscenes/Exit.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/World/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

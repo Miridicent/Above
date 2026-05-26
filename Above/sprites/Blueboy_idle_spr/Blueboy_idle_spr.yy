@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Blueboy_idle_spr",
   "bboxMode":0,
   "bbox_bottom":179,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a08a1b4f-544c-45ae-ba08-2d9951d18d6f","name":"a08a1b4f-544c-45ae-ba08-2d9951d18d6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d7a473d5-506e-4d83-8673-da4dece16839","name":"d7a473d5-506e-4d83-8673-da4dece16839","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a08a1b4f-544c-45ae-ba08-2d9951d18d6f","name":"a08a1b4f-544c-45ae-ba08-2d9951d18d6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d7a473d5-506e-4d83-8673-da4dece16839","name":"d7a473d5-506e-4d83-8673-da4dece16839","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Blueboy_idle_spr",
     "autoRecord":true,
     "backdropHeight":768,

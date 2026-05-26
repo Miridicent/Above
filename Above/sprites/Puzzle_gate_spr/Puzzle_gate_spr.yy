@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Puzzle_gate_spr",
   "bboxMode":0,
   "bbox_bottom":503,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9202f9c2-248a-48f2-954a-efa591b3e4a0","name":"9202f9c2-248a-48f2-954a-efa591b3e4a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9202f9c2-248a-48f2-954a-efa591b3e4a0","name":"9202f9c2-248a-48f2-954a-efa591b3e4a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Puzzle_gate_spr",
     "autoRecord":true,
     "backdropHeight":768,

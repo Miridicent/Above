@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"PurpleGirl_moving_spr",
   "bboxMode":0,
   "bbox_bottom":176,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"56e7f05a-5419-43b9-a53f-4ec2eed12035","name":"56e7f05a-5419-43b9-a53f-4ec2eed12035","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"007a1dcf-6f37-421f-8d64-fbbdb4ba43b2","name":"007a1dcf-6f37-421f-8d64-fbbdb4ba43b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56e7f05a-5419-43b9-a53f-4ec2eed12035","name":"56e7f05a-5419-43b9-a53f-4ec2eed12035","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"007a1dcf-6f37-421f-8d64-fbbdb4ba43b2","name":"007a1dcf-6f37-421f-8d64-fbbdb4ba43b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"PurpleGirl_moving_spr",
     "autoRecord":true,
     "backdropHeight":768,

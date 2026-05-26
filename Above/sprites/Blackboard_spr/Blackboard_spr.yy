@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Blackboard_spr",
   "bboxMode":0,
   "bbox_bottom":305,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"683bb08c-c709-4f12-9dcb-01352a93aad3","name":"683bb08c-c709-4f12-9dcb-01352a93aad3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"683bb08c-c709-4f12-9dcb-01352a93aad3","name":"683bb08c-c709-4f12-9dcb-01352a93aad3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Blackboard_spr",
     "autoRecord":true,
     "backdropHeight":768,

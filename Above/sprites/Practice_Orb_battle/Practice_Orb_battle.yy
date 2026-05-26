@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Practice_Orb_battle",
   "bboxMode":0,
   "bbox_bottom":96,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e8e7f70-c792-4871-a81a-82bfd8eddcf0","name":"3e8e7f70-c792-4871-a81a-82bfd8eddcf0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"42904c11-eed9-4eba-8986-e8698b10cd83","name":"42904c11-eed9-4eba-8986-e8698b10cd83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e8e7f70-c792-4871-a81a-82bfd8eddcf0","name":"3e8e7f70-c792-4871-a81a-82bfd8eddcf0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"42904c11-eed9-4eba-8986-e8698b10cd83","name":"42904c11-eed9-4eba-8986-e8698b10cd83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Practice_Orb_battle",
     "autoRecord":true,
     "backdropHeight":768,

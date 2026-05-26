@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Practice_Orb_Battle_atk",
   "bboxMode":0,
   "bbox_bottom":87,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"da461d5c-7913-4b2d-9ffa-e505988cbb79","name":"da461d5c-7913-4b2d-9ffa-e505988cbb79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4eb604d0-d5e7-43a8-8181-5aaae57bcf75","name":"4eb604d0-d5e7-43a8-8181-5aaae57bcf75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a51b0f07-b98a-44d8-a775-2927fb76b207","name":"a51b0f07-b98a-44d8-a775-2927fb76b207","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9fdfbaf8-f5e6-4321-ad53-96db1bb87898","name":"9fdfbaf8-f5e6-4321-ad53-96db1bb87898","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da461d5c-7913-4b2d-9ffa-e505988cbb79","name":"da461d5c-7913-4b2d-9ffa-e505988cbb79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4eb604d0-d5e7-43a8-8181-5aaae57bcf75","name":"4eb604d0-d5e7-43a8-8181-5aaae57bcf75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a51b0f07-b98a-44d8-a775-2927fb76b207","name":"a51b0f07-b98a-44d8-a775-2927fb76b207","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9fdfbaf8-f5e6-4321-ad53-96db1bb87898","name":"9fdfbaf8-f5e6-4321-ad53-96db1bb87898","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -35,7 +35,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Practice_Orb_Battle_atk",
     "autoRecord":true,
     "backdropHeight":768,

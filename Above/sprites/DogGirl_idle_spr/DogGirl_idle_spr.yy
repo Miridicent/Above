@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"DogGirl_idle_spr",
   "bboxMode":0,
   "bbox_bottom":136,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"902388f9-fb65-43cb-b642-d3a33c9508b0","name":"902388f9-fb65-43cb-b642-d3a33c9508b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"34778eab-75d5-4877-a8c1-d43c48553796","name":"34778eab-75d5-4877-a8c1-d43c48553796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"902388f9-fb65-43cb-b642-d3a33c9508b0","name":"902388f9-fb65-43cb-b642-d3a33c9508b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"34778eab-75d5-4877-a8c1-d43c48553796","name":"34778eab-75d5-4877-a8c1-d43c48553796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"DogGirl_idle_spr",
     "autoRecord":true,
     "backdropHeight":768,

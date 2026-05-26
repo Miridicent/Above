@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"RedGirl_moving_spr",
   "bboxMode":0,
   "bbox_bottom":176,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bce7c62f-1a75-460e-95fa-738174b678f0","name":"bce7c62f-1a75-460e-95fa-738174b678f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2ecf5f32-b6df-4285-ab9d-cc1a0fdc85e1","name":"2ecf5f32-b6df-4285-ab9d-cc1a0fdc85e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bce7c62f-1a75-460e-95fa-738174b678f0","name":"bce7c62f-1a75-460e-95fa-738174b678f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2ecf5f32-b6df-4285-ab9d-cc1a0fdc85e1","name":"2ecf5f32-b6df-4285-ab9d-cc1a0fdc85e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"RedGirl_moving_spr",
     "autoRecord":true,
     "backdropHeight":768,

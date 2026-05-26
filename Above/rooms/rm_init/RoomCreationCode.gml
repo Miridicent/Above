@@ -1,1 +1,1 @@
-room_goto(Abyss_Mouth);
+room_goto(Abyss_Ruins_classroom);

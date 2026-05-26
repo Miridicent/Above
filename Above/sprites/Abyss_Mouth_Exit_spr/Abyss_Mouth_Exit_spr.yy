@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Abyss_Mouth_Exit_spr",
   "bboxMode":2,
   "bbox_bottom":438,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c8c3c20a-1720-4517-8de9-6c63fe456c9b","name":"c8c3c20a-1720-4517-8de9-6c63fe456c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c8c3c20a-1720-4517-8de9-6c63fe456c9b","name":"c8c3c20a-1720-4517-8de9-6c63fe456c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Abyss_Mouth_Exit_spr",
     "autoRecord":true,
     "backdropHeight":768,

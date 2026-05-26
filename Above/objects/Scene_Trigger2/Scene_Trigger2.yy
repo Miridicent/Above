@@ -32,5 +32,5 @@
     "path":"sprites/STrigger2_spr/STrigger2_spr.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

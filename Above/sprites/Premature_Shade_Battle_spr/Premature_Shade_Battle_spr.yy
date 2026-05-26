@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Premature_Shade_Battle_spr",
   "bboxMode":0,
   "bbox_bottom":119,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ea3a3b23-ddd6-40ce-b7e9-2176ce1fcd43","name":"ea3a3b23-ddd6-40ce-b7e9-2176ce1fcd43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"407164cf-4d41-4af0-84e3-a29bf412030b","name":"407164cf-4d41-4af0-84e3-a29bf412030b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea3a3b23-ddd6-40ce-b7e9-2176ce1fcd43","name":"ea3a3b23-ddd6-40ce-b7e9-2176ce1fcd43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"407164cf-4d41-4af0-84e3-a29bf412030b","name":"407164cf-4d41-4af0-84e3-a29bf412030b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"Premature_Shade_Battle_spr",
     "autoRecord":true,
     "backdropHeight":768,

@@ -13,7 +13,7 @@ if (In_progress && place_meeting(x, y, Player))
     }
 
     // When cutscene finishes (textbox disappears or controller is destroyed)
-    if (cutscene_started && !instance_exists(obj_cutscene_controller_2))
+    if (cutscene_started && !instance_exists(obj_cutscene_controller_classexit))
     {
         In_progress = false;
         camera_initialized = false;

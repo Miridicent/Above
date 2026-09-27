@@ -1,87 +1,123 @@
-# Duetiful
+# Above
 
-**Duetiful** is a 2D game developed in **GameMaker** where a demon general attempts to complete her paperwork while being constantly interrupted by heroes and her co-workers.
+**Above** is a 2D turn-based RPG developed in **GameMaker using GML (GameMaker Language)**.
 
-The project combines a humorous fantasy setting with gameplay systems focused on interaction, dialogue, and managing interruptions.
+The project was developed to explore gameplay programming and the design of interconnected systems, with a particular focus on turn-based combat, character statistics, resource management, and player interaction.
 
-## 🎮 About the Game
+## Project Overview
 
-You play as a demon general trying to get through her daily paperwork.
+The core of *Above* is a turn-based combat system where the player chooses actions during their turn and manages their character's resources throughout an encounter.
 
-Unfortunately, the job comes with some unexpected problems. Heroes and co-workers regularly interrupt your work, forcing you to deal with them while trying to complete your responsibilities.
+The combat system includes:
 
-The game was developed as a personal game development project, with a focus on building gameplay systems and creating an interactive 2D experience.
+* **Normal attacks** for standard damage
+* **Skills** that consume MP
+* **Healing** abilities that restore HP
+* **HP management** for tracking character health
+* **MP management** for controlling skill usage
+* Turn-based action processing
+* Player and enemy interactions
 
-## ✨ Features
+These systems work together to create the game's core combat loop.
 
-* 2D gameplay built in GameMaker
-* Play as a demon general managing her workload
-* Character interactions and dialogue
-* Interactive events and encounters
-* Multiple gameplay systems working together
-* Humorous fantasy/workplace setting
-* Windows build
-* HTML5/Web build
+## Technical Implementation
 
-## 🛠️ Technologies
+The project involved implementing and connecting several gameplay systems rather than relying solely on GameMaker's built-in functionality.
 
-* **Game Engine:** GameMaker
-* **Programming Language:** GML (GameMaker Language)
-* **Platforms:** Windows / HTML5
-* **Version Control:** Git / GitHub
+### Combat System
 
-## 🧑‍💻 Technical Highlights
+The combat system manages the flow of turns and processes the player's selected action.
 
-Duetiful gave me experience developing gameplay systems in GameMaker, including:
+Actions can produce different effects depending on their type, including:
 
-* Player movement and interaction
-* Dialogue and text-box systems
-* Character and NPC interactions
-* Game-state management
-* Trigger-based events
-* Gameplay encounters
-* User interface systems
-* Scene and gameplay flow
-* Building and exporting a game for multiple platforms
+* Dealing damage
+* Restoring HP
+* Consuming MP
+* Updating character statistics
+* Progressing the battle state
 
-## 📁 Repository Structure
+### Character Statistics
+
+Characters use HP and MP values that are updated during combat.
+
+HP is used to determine whether a character remains active in battle, while MP acts as a limited resource for using skills.
+
+This required keeping character state consistent as actions are performed and ensuring that changes are reflected throughout the combat system.
+
+### Game State
+
+The project uses different gameplay states to control what the player can currently do.
+
+This allows the game to distinguish between situations such as:
+
+* Exploring
+* Interacting with characters
+* Entering an encounter
+* Selecting a combat action
+* Processing an enemy turn
+* Ending a battle
+
+Managing these states helped keep different gameplay systems separate while allowing them to interact with one another.
+
+## Skills Demonstrated
+
+Through developing *Above*, I gained practical experience with:
+
+* **GML programming**
+* Object-oriented-style game architecture within GameMaker
+* State management
+* Event-driven programming
+* Implementing game logic
+* Managing variables and persistent game data
+* Designing reusable gameplay systems
+* Handling player input
+* Debugging gameplay systems
+* Building and testing a complete playable application
+
+## Technologies
+
+| Technology       | Use                                     |
+| ---------------- | --------------------------------------- |
+| **GameMaker**    | Game engine and development environment |
+| **GML**          | Gameplay and system programming         |
+| **Git / GitHub** | Source control and project management   |
+
+## Repository Structure
 
 ```text
-Duetiful/
-├── Duetiful/                 # GameMaker project source
-├── Duetiful_build/           # Windows build
-├── Duetiful_build.zip        # Compressed Windows build
-└── Duetiful_build_html.zip   # HTML5/Web build
+Above/
+├── Above/              # GameMaker project source
+└── Above_Build.zip     # Playable Windows build
 ```
 
-## 🕹️ How to Play
+## Running the Project
 
-### Windows
+### Play the Windows Build
 
-1. Download `Duetiful_build.zip`.
+1. Download `Above_Build.zip`.
 2. Extract the archive.
-3. Run the game's executable.
+3. Run the included executable.
 
-### Web
+### Open the Source Project
 
-The HTML5 build can be run through a compatible web browser.
+The `Above` directory contains the GameMaker project files and can be opened using GameMaker.
 
-## 📸 Screenshots
+## What I Learned
 
-*Add screenshots or a gameplay GIF here.*
+Developing *Above* gave me experience taking an idea and turning it into a functioning application through incremental development and debugging.
 
-## 🎯 What I Learned
+One of the main challenges was getting individual gameplay systems to work together reliably. Combat actions, HP and MP management, turn progression, and game states all need to remain synchronised as the player moves through an encounter.
 
-Developing Duetiful helped me gain practical experience with game programming and designing systems that interact with one another.
+This project helped strengthen my understanding of **programming logic, state management, debugging, and designing systems that interact with one another**.
 
-In particular, the project gave me experience working with **GML**, event-driven gameplay, UI systems, dialogue, player interaction, and managing game state across different parts of a game.
-
-## 👤 Author
+## Author
 
 **Conor Briggs**
+
+[GitHub](https://github.com/Miridicent)
 
 GitHub: [@Miridicent](https://github.com/Miridicent)
 
 ---
 
-*Duetiful is a personal game development project built with GameMaker.*
+*Above is a personal game development project built with GameMaker.*

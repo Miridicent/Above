@@ -58,7 +58,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Above",
   "resources":[
@@ -122,6 +122,7 @@
     {"id":{"name":"save_obj","path":"objects/save_obj/save_obj.yy",},},
     {"id":{"name":"Scene_Trigger","path":"objects/Scene_Trigger/Scene_Trigger.yy",},},
     {"id":{"name":"Scene_Trigger2","path":"objects/Scene_Trigger2/Scene_Trigger2.yy",},},
+    {"id":{"name":"Scene_Trigger3","path":"objects/Scene_Trigger3/Scene_Trigger3.yy",},},
     {"id":{"name":"Sea_effect","path":"objects/Sea_effect/Sea_effect.yy",},},
     {"id":{"name":"Shade_construct_overworld_obj","path":"objects/Shade_construct_overworld_obj/Shade_construct_overworld_obj.yy",},},
     {"id":{"name":"Sign_obj","path":"objects/Sign_obj/Sign_obj.yy",},},
@@ -148,6 +149,7 @@
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"Test_Room","path":"rooms/Test_Room/Test_Room.yy",},},
     {"id":{"name":"Test_Room2","path":"rooms/Test_Room2/Test_Room2.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"CutFunctions","path":"scripts/CutFunctions/CutFunctions.yy",},},
     {"id":{"name":"GameData","path":"scripts/GameData/GameData.yy",},},
@@ -238,6 +240,7 @@
     {"id":{"name":"Sprite88","path":"sprites/Sprite88/Sprite88.yy",},},
     {"id":{"name":"STrigger_spr","path":"sprites/STrigger_spr/STrigger_spr.yy",},},
     {"id":{"name":"STrigger2_spr","path":"sprites/STrigger2_spr/STrigger2_spr.yy",},},
+    {"id":{"name":"STrigger3_spr","path":"sprites/STrigger3_spr/STrigger3_spr.yy",},},
     {"id":{"name":"Teacher_idle_spr","path":"sprites/Teacher_idle_spr/Teacher_idle_spr.yy",},},
     {"id":{"name":"Teacher_move_spr","path":"sprites/Teacher_move_spr/Teacher_move_spr.yy",},},
     {"id":{"name":"Teacher_move2_spr","path":"sprites/Teacher_move2_spr/Teacher_move2_spr.yy",},},
@@ -273,6 +276,7 @@
     {"roomId":{"name":"Abyss_Ruins_final_room","path":"rooms/Abyss_Ruins_final_room/Abyss_Ruins_final_room.yy",},},
     {"roomId":{"name":"Abyss_Ruins_3","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},},
     {"roomId":{"name":"End_room","path":"rooms/End_room/End_room.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

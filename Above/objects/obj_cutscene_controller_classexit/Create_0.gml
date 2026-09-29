@@ -122,8 +122,11 @@ array_push(cutscene_steps, {
 	wait_for_textbox: false,
 	wait_for_battle: false,
     action: function () {
+		destroy_instance(File_cab_blocker);
+		instance_activate_object(Scene_Trigger, Scene_Trigger2)
+		
         //Fade out funtion
-		room_goto(Abyss_Ruins_battle)
+		room_goto(Abyss_Ruins_battle);
     }
 });
 

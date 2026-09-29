@@ -1,4 +1,4 @@
-/// @description The first trigger to be used when moving between rooms... Used for going back
+/// @description The second trigger to be used when moving between rooms... Used for going back
 // You can write your code in this editor
 
 if (room == Abyss_Ruins_1)

@@ -19,7 +19,7 @@ else if (room == Abyss_Ruins_classroom)
 {
 	room_goto(Abyss_Ruins_2);
 	x = 172;
-	y = 150;
+	y = 75;
 }
 
 else if (room == Abyss_Ruins_2)
@@ -41,4 +41,11 @@ else if (room == Abyss_Ruins_3)
 	room_goto(Abyss_Ruins_final_room);
 	x = 212;
 	y = 1782;
+}
+
+else if (room == Abyss_Ruins_side)
+{
+	room_goto(Abyss_Ruins_2);
+	x = 1627;
+	y = 409;
 }

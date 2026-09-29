@@ -40,5 +40,6 @@ else
 	camera_set_view_target(view_camera[0], Player);
 	camera_set_view_border(view_camera[0], 800, 800);
 	instance_create_layer(384, 736, "Instances", Cut2_trigger );
+	instance_deactivate_object(Scene_Trigger, Scene_Trigger2)
 	instance_destroy(); // Only destroy if this object is no longer needed
 }

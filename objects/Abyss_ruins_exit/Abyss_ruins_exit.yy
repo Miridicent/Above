@@ -3,6 +3,8 @@
   "%Name":"Abyss_ruins_exit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Abyss_ruins_exit",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite88",
-    "path":"sprites/Sprite88/Sprite88.yy",
+    "name":"AbyssRunisExitClosed_spr",
+    "path":"sprites/AbyssRunisExitClosed_spr/AbyssRunisExitClosed_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

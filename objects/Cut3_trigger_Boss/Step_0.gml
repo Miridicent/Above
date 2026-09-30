@@ -38,5 +38,6 @@ else
     // Reattach camera to player
     camera_set_view_target(view_camera[0], Player);
     camera_set_view_border(view_camera[0], 800, 800);
+	instance_deactivate_object(Scene_Trigger2);
 	
 }

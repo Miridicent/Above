@@ -10,6 +10,7 @@
     {"name":"inst_58A4B33E_1","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},
     {"name":"inst_5947493B","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},
     {"name":"inst_22C50670","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},
+    {"name":"inst_226B9358","path":"rooms/Abyss_Ruins_3/Abyss_Ruins_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v4","%Name":"inst_58A4B33E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58A4B33E_1","objectId":{"name":"Wall_crack","path":"objects/Wall_crack/Wall_crack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.50000006,"scaleY":0.50000006,"x":3040.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_5947493B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5947493B","objectId":{"name":"Scene_Trigger","path":"objects/Scene_Trigger/Scene_Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.5,"x":3968.0,"y":3424.0,},
         {"$GMRInstance":"v4","%Name":"inst_22C50670","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22C50670","objectId":{"name":"Scene_Trigger2","path":"objects/Scene_Trigger2/Scene_Trigger2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":11.0,"x":0.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_226B9358","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_226B9358","objectId":{"name":"Wall_crack","path":"objects/Wall_crack/Wall_crack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":0.5833334,"scaleY":0.5833334,"x":3072.0,"y":1536.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Enviroment","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Enviroment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":42,"SerialiseWidth":42,"TileCompressedData":[
           -38,12,1,10,-3,0,-38,12,1,10,-3,0,-38,12,1,10,-3,0,-38,11,1,10,-3,0,-38,9,1,10,-3,0,-38,9,1,10,-3,0,

@@ -8,7 +8,9 @@ with (all) {
 	else if (variable_instance_exists(id, "tag") && tag == "boss1"){
 		global.boss1 = id;
 	}
-	
+	if (variable_instance_exists(id, "tag") && tag == "door1"){
+		global.door1 = id;
+	}
 }
 
 // Start the cutscene
@@ -76,6 +78,7 @@ array_push(cutscene_steps, {
 	action: function () {
 		NewEncounterCut([global.enemies.Ruin_boss], Test_background_spr);
 		instance_destroy(Ruin_Boss);
+		switch_sprites()
 }
 
 /*array_push(cutscene_steps, {
